@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import { Link } from 'react-router-dom';
-// import './App.css';
+import './App.css';
 // import wixPosts from '../assets/data/wixPosts.xml'
 import blogHelper from '../helpers/blogHelper.js';
 import EverythingButEuroTrip from '../components/EverythingButEuroTrip.js';
@@ -15,6 +15,7 @@ export class App extends Component {
     return (
       <div className="App">
         <EverythingButEuroTrip />
+        HI MARK!
       </div>
     );
   }

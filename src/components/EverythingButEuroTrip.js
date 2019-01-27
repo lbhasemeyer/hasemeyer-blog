@@ -4,8 +4,8 @@ import MenAtWork from '../assets/images/MenAtWork.jpeg';
 const EverythingButEuroTrip = ({
 
 }) => (
- 	<div>
-  		<img src={MenAtWork} max-height="400" width="100%" />
+ 	<div style={{height:"100%"}}>
+  		<img src={MenAtWork} height="auto" width="100%" />
 	</div>
 );
 
